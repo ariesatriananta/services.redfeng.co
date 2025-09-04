@@ -2,7 +2,6 @@
 const nextConfig = {
   reactStrictMode: false,
   experimental: {
-    appDir: true,
     typedRoutes: true,
   },
   images: {
@@ -28,6 +27,12 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "www.gstatic.com",
+        port: "",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "upload.wikimedia.org",
         port: "",
         pathname: "/**",
       },

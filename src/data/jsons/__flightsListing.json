@@ -1,0 +1,303 @@
+[
+  {
+    "id": "flight-001",
+    "authorId": 1,
+    "date": "December 15, 2024",
+    "href": "/listing-flight-detail",
+    "listingCategoryId": 1,
+    "title": "Jakarta to Singapore",
+    "featuredImage": "https://images.pexels.com/photos/46148/aircraft-jet-landing-cloud-46148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "galleryImgs": [
+      "https://images.pexels.com/photos/46148/aircraft-jet-landing-cloud-46148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "https://images.pexels.com/photos/2406953/pexels-photo-2406953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    ],
+    "commentCount": 24,
+    "viewCount": 156,
+    "like": false,
+    "price": "$299",
+    "reviewStart": 4.5,
+    "reviewCount": 89,
+    "saleOff": "15%",
+    "isAds": false,
+    "airline": {
+      "name": "Garuda Indonesia",
+      "logo": "https://images.pexels.com/photos/46148/aircraft-jet-landing-cloud-46148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "code": "GA"
+    },
+    "departure": {
+      "airport": "Soekarno-Hatta International Airport",
+      "airportCode": "CGK",
+      "city": "Jakarta",
+      "time": "08:30",
+      "date": "2024-12-20"
+    },
+    "arrival": {
+      "airport": "Changi Airport",
+      "airportCode": "SIN",
+      "city": "Singapore",
+      "time": "11:45",
+      "date": "2024-12-20"
+    },
+    "duration": "2h 15m",
+    "stops": 0,
+    "aircraft": "Boeing 737-800",
+    "flightNumber": "GA 825",
+    "class": "Economy",
+    "baggage": {
+      "carryOn": "7kg",
+      "checked": "20kg"
+    },
+    "amenities": ["WiFi", "Entertainment", "Meal", "Power Outlet"]
+  },
+  {
+    "id": "flight-002",
+    "authorId": 2,
+    "date": "December 15, 2024",
+    "href": "/listing-flight-detail",
+    "listingCategoryId": 1,
+    "title": "Jakarta to Singapore",
+    "featuredImage": "https://images.pexels.com/photos/2406953/pexels-photo-2406953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "galleryImgs": [
+      "https://images.pexels.com/photos/2406953/pexels-photo-2406953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    ],
+    "commentCount": 18,
+    "viewCount": 203,
+    "like": true,
+    "price": "$189",
+    "reviewStart": 4.2,
+    "reviewCount": 67,
+    "saleOff": null,
+    "isAds": true,
+    "airline": {
+      "name": "Lion Air",
+      "logo": "https://images.pexels.com/photos/2406953/pexels-photo-2406953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "code": "JT"
+    },
+    "departure": {
+      "airport": "Soekarno-Hatta International Airport",
+      "airportCode": "CGK",
+      "city": "Jakarta",
+      "time": "14:20",
+      "date": "2024-12-20"
+    },
+    "arrival": {
+      "airport": "Changi Airport",
+      "airportCode": "SIN",
+      "city": "Singapore",
+      "time": "17:35",
+      "date": "2024-12-20"
+    },
+    "duration": "2h 15m",
+    "stops": 0,
+    "aircraft": "Airbus A320",
+    "flightNumber": "JT 715",
+    "class": "Economy",
+    "baggage": {
+      "carryOn": "7kg",
+      "checked": "15kg"
+    },
+    "amenities": ["Entertainment", "Meal"]
+  },
+  {
+    "id": "flight-003",
+    "authorId": 3,
+    "date": "December 15, 2024",
+    "href": "/listing-flight-detail",
+    "listingCategoryId": 2,
+    "title": "Jakarta to Tokyo",
+    "featuredImage": "https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "galleryImgs": [
+      "https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "https://images.pexels.com/photos/46148/aircraft-jet-landing-cloud-46148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    ],
+    "commentCount": 31,
+    "viewCount": 278,
+    "like": false,
+    "price": "$599",
+    "reviewStart": 4.8,
+    "reviewCount": 124,
+    "saleOff": "20%",
+    "isAds": false,
+    "airline": {
+      "name": "Japan Airlines",
+      "logo": "https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "code": "JL"
+    },
+    "departure": {
+      "airport": "Soekarno-Hatta International Airport",
+      "airportCode": "CGK",
+      "city": "Jakarta",
+      "time": "22:15",
+      "date": "2024-12-20"
+    },
+    "arrival": {
+      "airport": "Narita International Airport",
+      "airportCode": "NRT",
+      "city": "Tokyo",
+      "time": "06:30",
+      "date": "2024-12-21"
+    },
+    "duration": "7h 15m",
+    "stops": 0,
+    "aircraft": "Boeing 787-9",
+    "flightNumber": "JL 726",
+    "class": "Economy",
+    "baggage": {
+      "carryOn": "10kg",
+      "checked": "23kg"
+    },
+    "amenities": ["WiFi", "Entertainment", "Meal", "Power Outlet", "Blanket", "Pillow"]
+  },
+  {
+    "id": "flight-004",
+    "authorId": 4,
+    "date": "December 15, 2024",
+    "href": "/listing-flight-detail",
+    "listingCategoryId": 2,
+    "title": "Jakarta to Tokyo",
+    "featuredImage": "https://images.pexels.com/photos/46148/aircraft-jet-landing-cloud-46148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "galleryImgs": [
+      "https://images.pexels.com/photos/46148/aircraft-jet-landing-cloud-46148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "https://images.pexels.com/photos/2406953/pexels-photo-2406953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    ],
+    "commentCount": 22,
+    "viewCount": 189,
+    "like": true,
+    "price": "$459",
+    "reviewStart": 4.3,
+    "reviewCount": 95,
+    "saleOff": null,
+    "isAds": false,
+    "airline": {
+      "name": "All Nippon Airways",
+      "logo": "https://images.pexels.com/photos/46148/aircraft-jet-landing-cloud-46148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "code": "NH"
+    },
+    "departure": {
+      "airport": "Soekarno-Hatta International Airport",
+      "airportCode": "CGK",
+      "city": "Jakarta",
+      "time": "01:45",
+      "date": "2024-12-21"
+    },
+    "arrival": {
+      "airport": "Narita International Airport",
+      "airportCode": "NRT",
+      "city": "Tokyo",
+      "time": "10:00",
+      "date": "2024-12-21"
+    },
+    "duration": "7h 15m",
+    "stops": 1,
+    "aircraft": "Boeing 777-300ER",
+    "flightNumber": "NH 856",
+    "class": "Economy",
+    "baggage": {
+      "carryOn": "10kg",
+      "checked": "23kg"
+    },
+    "amenities": ["WiFi", "Entertainment", "Meal", "Power Outlet"]
+  },
+  {
+    "id": "flight-005",
+    "authorId": 5,
+    "date": "December 15, 2024",
+    "href": "/listing-flight-detail",
+    "listingCategoryId": 3,
+    "title": "Jakarta to Bangkok",
+    "featuredImage": "https://images.pexels.com/photos/2406953/pexels-photo-2406953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "galleryImgs": [
+      "https://images.pexels.com/photos/2406953/pexels-photo-2406953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    ],
+    "commentCount": 15,
+    "viewCount": 134,
+    "like": false,
+    "price": "$199",
+    "reviewStart": 4.1,
+    "reviewCount": 58,
+    "saleOff": "10%",
+    "isAds": true,
+    "airline": {
+      "name": "Thai Airways",
+      "logo": "https://images.pexels.com/photos/2406953/pexels-photo-2406953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "code": "TG"
+    },
+    "departure": {
+      "airport": "Soekarno-Hatta International Airport",
+      "airportCode": "CGK",
+      "city": "Jakarta",
+      "time": "16:30",
+      "date": "2024-12-20"
+    },
+    "arrival": {
+      "airport": "Suvarnabhumi Airport",
+      "airportCode": "BKK",
+      "city": "Bangkok",
+      "time": "19:45",
+      "date": "2024-12-20"
+    },
+    "duration": "3h 15m",
+    "stops": 0,
+    "aircraft": "Airbus A330-300",
+    "flightNumber": "TG 432",
+    "class": "Economy",
+    "baggage": {
+      "carryOn": "7kg",
+      "checked": "20kg"
+    },
+    "amenities": ["Entertainment", "Meal", "WiFi"]
+  },
+  {
+    "id": "flight-006",
+    "authorId": 1,
+    "date": "December 15, 2024",
+    "href": "/listing-flight-detail",
+    "listingCategoryId": 4,
+    "title": "Jakarta to Kuala Lumpur",
+    "featuredImage": "https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "galleryImgs": [
+      "https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "https://images.pexels.com/photos/46148/aircraft-jet-landing-cloud-46148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    ],
+    "commentCount": 28,
+    "viewCount": 167,
+    "like": true,
+    "price": "$159",
+    "reviewStart": 4.4,
+    "reviewCount": 76,
+    "saleOff": null,
+    "isAds": false,
+    "airline": {
+      "name": "Malaysia Airlines",
+      "logo": "https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "code": "MH"
+    },
+    "departure": {
+      "airport": "Soekarno-Hatta International Airport",
+      "airportCode": "CGK",
+      "city": "Jakarta",
+      "time": "12:00",
+      "date": "2024-12-20"
+    },
+    "arrival": {
+      "airport": "Kuala Lumpur International Airport",
+      "airportCode": "KUL",
+      "city": "Kuala Lumpur",
+      "time": "15:15",
+      "date": "2024-12-20"
+    },
+    "duration": "2h 15m",
+    "stops": 0,
+    "aircraft": "Boeing 737-800",
+    "flightNumber": "MH 721",
+    "class": "Economy",
+    "baggage": {
+      "carryOn": "7kg",
+      "checked": "20kg"
+    },
+    "amenities": ["Entertainment", "Meal", "WiFi"]
+  }
+]

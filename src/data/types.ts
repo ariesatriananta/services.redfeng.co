@@ -18,7 +18,7 @@ export interface TaxonomyType {
   desc?: string;
   color?: TwMainColor | string;
   taxonomy: "category" | "tag";
-  listingType?: "stay" | "experiences" | "car";
+  listingType?: "stay" | "experiences" | "car" | "flight";
 }
 
 export interface AuthorType {
@@ -140,4 +140,51 @@ export interface CarDataType {
     lat: number;
     lng: number;
   };
+}
+
+//
+export interface FlightDataType {
+  id: string | number;
+  author: AuthorType;
+  date: string;
+  href: Route<string>;
+  title: string;
+  featuredImage: StaticImageData | string;
+  commentCount: number;
+  viewCount: number;
+  like: boolean;
+  price: string;
+  listingCategory: TaxonomyType;
+  saleOff?: string | null;
+  isAds: boolean | null;
+  // Flight specific properties
+  airline: {
+    name: string;
+    logo: string;
+    code: string;
+  };
+  departure: {
+    airport: string;
+    airportCode: string;
+    city: string;
+    time: string;
+    date: string;
+  };
+  arrival: {
+    airport: string;
+    airportCode: string;
+    city: string;
+    time: string;
+    date: string;
+  };
+  duration: string;
+  stops: number;
+  aircraft: string;
+  flightNumber: string;
+  class: "Economy" | "Business" | "First";
+  baggage: {
+    carryOn: string;
+    checked: string;
+  };
+  amenities: string[];
 }

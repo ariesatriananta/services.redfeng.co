@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Domestic",
+    "href": "/listing-flights",
+    "count": 45,
+    "thumbnail": "https://images.pexels.com/photos/46148/aircraft-jet-landing-cloud-46148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "desc": "Domestic flights within Indonesia",
+    "color": "blue",
+    "taxonomy": "category",
+    "listingType": "flight"
+  },
+  {
+    "id": 2,
+    "name": "International",
+    "href": "/listing-flights",
+    "count": 78,
+    "thumbnail": "https://images.pexels.com/photos/2406953/pexels-photo-2406953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "desc": "International flights to various destinations",
+    "color": "green",
+    "taxonomy": "category",
+    "listingType": "flight"
+  },
+  {
+    "id": 3,
+    "name": "Business Class",
+    "href": "/listing-flights",
+    "count": 23,
+    "thumbnail": "https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "desc": "Premium business class flights",
+    "color": "purple",
+    "taxonomy": "category",
+    "listingType": "flight"
+  },
+  {
+    "id": 4,
+    "name": "Economy Class",
+    "href": "/listing-flights",
+    "count": 156,
+    "thumbnail": "https://images.pexels.com/photos/46148/aircraft-jet-landing-cloud-46148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "desc": "Affordable economy class flights",
+    "color": "yellow",
+    "taxonomy": "category",
+    "listingType": "flight"
+  },
+  {
+    "id": 5,
+    "name": "Direct Flights",
+    "href": "/listing-flights",
+    "count": 89,
+    "thumbnail": "https://images.pexels.com/photos/2406953/pexels-photo-2406953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "desc": "Non-stop direct flights",
+    "color": "red",
+    "taxonomy": "category",
+    "listingType": "flight"
+  },
+  {
+    "id": 6,
+    "name": "Connecting Flights",
+    "href": "/listing-flights",
+    "count": 67,
+    "thumbnail": "https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "desc": "Flights with stopovers",
+    "color": "indigo",
+    "taxonomy": "category",
+    "listingType": "flight"
+  }
+]

@@ -3,69 +3,21 @@ import TabFilters from "./TabFilters";
 import Heading2 from "@/shared/Heading2";
 import FlightCard, { FlightCardProps } from "@/components/FlightCard";
 import ButtonPrimary from "@/shared/ButtonPrimary";
+import { DEMO_FLIGHT_LISTINGS } from "@/data/listings";
 
 export interface SectionGridFilterCardProps {
   className?: string;
 }
 
-const DEMO_DATA: FlightCardProps["data"][] = [
-  {
-    id: "1",
-    price: "$4,100",
-    airlines: {
-      logo: "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
-      name: "Korean Air",
-    },
+// Convert flight data to FlightCard format
+const DEMO_DATA: FlightCardProps["data"][] = DEMO_FLIGHT_LISTINGS.map((flight) => ({
+  id: flight.id.toString(),
+  price: flight.price,
+  airlines: {
+    logo: flight.airline.logo,
+    name: flight.airline.name,
   },
-  {
-    id: "2",
-    price: "$3,380",
-    airlines: {
-      logo: "https://www.gstatic.com/flights/airline_logos/70px/SQ.png",
-      name: "Singapore Airlines",
-    },
-  },
-  {
-    id: "3",
-    price: "$2,380",
-    airlines: {
-      logo: "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-      name: "Philippine Airlines",
-    },
-  },
-  {
-    id: "1",
-    price: "$4,100",
-    airlines: {
-      logo: "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
-      name: "Korean Air",
-    },
-  },
-  {
-    id: "2",
-    price: "$3,380",
-    airlines: {
-      logo: "https://www.gstatic.com/flights/airline_logos/70px/SQ.png",
-      name: "Singapore Airlines",
-    },
-  },
-  {
-    id: "1",
-    price: "$4,100",
-    airlines: {
-      logo: "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
-      name: "Korean Air",
-    },
-  },
-  {
-    id: "2",
-    price: "$3,380",
-    airlines: {
-      logo: "https://www.gstatic.com/flights/airline_logos/70px/SQ.png",
-      name: "Singapore Airlines",
-    },
-  },
-];
+}));
 
 const SectionGridFilterCard: FC<SectionGridFilterCardProps> = ({
   className = "",
@@ -76,10 +28,10 @@ const SectionGridFilterCard: FC<SectionGridFilterCardProps> = ({
       data-nc-id="SectionGridFilterCard"
     >
       <Heading2
-        heading="Singapore - Tokyo"
+        heading="Available Flights"
         subHeading={
           <span className="block text-neutral-500 dark:text-neutral-400 mt-3">
-            22 flights
+            {DEMO_FLIGHT_LISTINGS.length} flights available
             <span className="mx-2">·</span>
             round trip
             <span className="mx-2">·</span>2 Guests

@@ -1,6 +1,7 @@
 import __taxonomies from "./jsons/__taxonomies.json";
 import __stayTaxonomies from "./jsons/__stayTaxonomies.json";
 import __experiencesTaxonomies from "./jsons/__experiencesTaxonomies.json";
+import __flightsTaxonomies from "./jsons/__flightsTaxonomies.json";
 import { TaxonomyType } from "./types";
 import { Route } from "@/routers/types";
 
@@ -34,9 +35,19 @@ const DEMO_EXPERIENCES_CATEGORIES: TaxonomyType[] = __experiencesTaxonomies.map(
   })
 );
 
+const DEMO_FLIGHT_CATEGORIES: TaxonomyType[] = __flightsTaxonomies.map(
+  (item) => ({
+    ...item,
+    taxonomy: "category",
+    listingType: "flight",
+    href: item.href as Route,
+  })
+);
+
 export {
   DEMO_CATEGORIES,
   DEMO_TAGS,
   DEMO_STAY_CATEGORIES,
   DEMO_EXPERIENCES_CATEGORIES,
+  DEMO_FLIGHT_CATEGORIES,
 };
